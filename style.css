@@ -4,10 +4,18 @@
     padding: 0;
 }
 
+body {
+    background-color: #fafafa;
+    position: relative;
+}
+
 nav {
+    background-color: white;
     gap: 5rem;
-    border-bottom: 1px solid black;
-    ;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
 }
 
 h3 {
@@ -19,12 +27,17 @@ h3 {
 .n-icone {
     display: flex;
     flex-direction: row;
-    gap: .6rem;
+    gap: .8rem;
+}
+
+a,
+a:hover {
+    color: black;
 }
 
 .nav-icone {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: flex;
     flex-direction: row;
 }
