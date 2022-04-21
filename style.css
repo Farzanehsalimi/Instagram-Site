@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    gap: 5rem;
+    border-bottom: 1px solid black;
+    ;
+}
+
+h3 {
+    font-family: Square Peg;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.n-icone {
+    display: flex;
+    flex-direction: row;
+    gap: .6rem;
+}
+
+.nav-icone {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 50%;
+}
