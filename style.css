@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Rubik, sans-serif;
 }
 
 body {
@@ -10,15 +12,16 @@ body {
 }
 
 nav {
+    width: 10rem;
     background-color: white;
-    gap: 5rem;
+    gap: 15rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
 
 h3,
 .form-outline,
-.n-icone {
-    margin-top: .8rem;
+.n-icon {
+    margin-top: 2rem;
     margin-bottom: 0;
 }
 
@@ -28,43 +31,61 @@ h3 {
     font-size: 2.5em;
 }
 
-.n-icone {
+.n-icon {
     display: flex;
     flex-direction: row;
-    gap: .8rem;
+    gap: 1rem;
 }
 
 a,
 a:hover {
     color: #111;
+    text-decoration: none;
 }
 
-.nav-icone {
+.nav-icon {
     width: 25px;
     height: 25px;
     display: flex;
     flex-direction: row;
 }
 
-img {
-    border-radius: 50%;
-}
-
 .story-name {
     width: 25px;
     height: 25px;
+    border-radius: 50%;
 }
 
 .carousel-item {
-    height: 32rem;
+    height: 50rem;
 }
 
 .container {
+    width: 82rem;
     background: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
-    padding: 5rem 10rem 30rem 10rem;
+    padding: 4rem 5rem 4rem 5rem;
 }
 
 .carousel-img {
-    margin-top: 25rem;
+    margin-top: 4rem;
+}
+
+.product-img {
+    background-size: cover;
+}
+
+.shop-btn {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    background-color: #310d0d;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.shop-btn:hover {
+    background-color: #b75555;
+}
+
+.lorem {
+    margin-top: 100rem;
 }
