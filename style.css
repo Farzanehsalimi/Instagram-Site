@@ -7,15 +7,12 @@
 
 body {
     background-color: #fafafa;
-    position: relative;
 }
 
 nav {
     background-color: white;
     gap: 5rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
-    position: absolute;
-    top: 0;
 }
 
 h3,
@@ -39,7 +36,7 @@ h3 {
 
 a,
 a:hover {
-    color: black;
+    color: #111;
 }
 
 .nav-icone {
@@ -58,6 +55,16 @@ img {
     height: 25px;
 }
 
-.carousel {
-    margin-top: 10rem;
+.carousel-item {
+    height: 32rem;
+}
+
+.container {
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    padding: 5rem 10rem 30rem 10rem;
+}
+
+.carousel-img {
+    margin-top: 25rem;
 }
